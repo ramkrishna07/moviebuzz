@@ -1,0 +1,158 @@
+.movie-info{
+    width: 100%;
+    height: 100vh;
+    margin-top: 60px;
+}
+.background-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.movie-details{
+    position: relative;
+    bottom: 80%;
+    z-index: 1;
+    width: 40%;
+    height: 80%;
+    padding: 30px;
+    border: 1px ;
+    background: linear-gradient(90deg,rgba(24,24,24,1), rgba(24,24,24,0) 100%);
+    display: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff; 
+}
+.movie-name{
+    font-size: 30px;
+    font-weight: 500;
+}
+.genres{
+    opacity: 0.6;
+    margin: 30px 0;
+}
+.des{
+    width: 70%;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.starring span{
+    opacity: 0.6;
+}
+
+.movie-img-container{
+   width: 100%;
+   display: flex;
+   overflow: hidden;
+   scroll-behavior: smooth;
+}
+.movie-img-container::-webkit-scrollbar{
+    display: none;
+}
+.movie-img{
+    flex: 0 0 auto;
+    width: 20%;
+    height: 250px;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.movie-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+.img-main{
+    margin-top: 0;
+    padding: 5vw 5vw 0;
+}
+.trailer-container,
+.recommendations{
+    color: #fff;
+    padding: 5vw 5vw 0;
+
+}
+.trailer-container{
+    margin-top: 50px;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+iframe{
+    width: 400px;
+    height: 200px;
+}
+.recommendation-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie p{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    opacity: 0;
+}
+.movie:hover p{
+    opacity: 1;
+}
+
+#pre-btn,
+#nxt-btn{
+    position: absolute;
+    height: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2.5vw;
+    background: #181818;
+    border: none;
+    outline: none;
+    opacity: 0;
+}
+#pre-btn{
+    left: -2.5vw;
+}
+#nxt-btn{
+    right: -2.5vw;
+}
+#pre-btn img,
+#nxt-btn img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+#pre-btn:hover,
+#nxt-btn:hover{
+    opacity: 1;
+}
+
+@media(max-width:750px){
+    .movie-form{
+        left: 170px;
+    }
+    .movie-details{
+        width: 70%;
+    }
+}
+@media(max-width:445px){
+    .movie-details{
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+    }
+}
+@media(max-width:380px){
+    iframe{
+        width: 100%;
+    }
+}

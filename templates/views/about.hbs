@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieBuzz:</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+<body>
+     {{>navbar}}
+
+    <!-- movie info -->
+    <div class="movie-info">
+        <!--<div class="movie-details">
+            <h1 class="movie-name"></h1>
+            <p class="genres"></p>
+            <p class="des"></p>
+            <p class="starring"><span>starring:</span></p>
+            
+        </div> -->
+    </div>
+
+    <!-- fetching images -->
+<div class="main img-main">
+    <div class="movie-list">
+
+        <button id="pre-btn"><img src="img/pre.png" alt=""></button>
+        <h1 class="movie-category heading">Images</h1>
+        <div class="movie-img-container" id="container">
+            <!-- <div class="movie-img">
+                <img src="img/poster.jpg" alt="">
+            </div> -->
+        </div>
+        <button id="nxt-btn"><img src="img/nxt.png" alt=""></button>
+    </div>
+</div>
+
+    <!-- video clips -->
+
+    <div class="trailer-container">
+        <h1 class="heading">Video Clips</h1>
+        <!-- <iframe src="https://www.youtube.com/embed/J6DZITPRrU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    </div>
+
+    <!-- recommendations-->
+    <div class="recommendations">
+        <h1 class="heading">More Like This</h1>
+        <div class="recommendation-container">
+            <!-- <div class="movie">
+                <img src="img/poster.jpg" alt="">
+                <p class="movie-title">movie name</p>
+            </div> -->
+        </div>
+    </div>
+
+     <footer class="footer">
+        <div class="contain">
+            <div class="row">
+               <p class="copyright-text"><span>&copy;</span> 2022 by Ramkrishna Saha</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/api.js"></script>
+    <script src="js/about.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+</html>

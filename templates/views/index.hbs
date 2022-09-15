@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieBuzz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }
+</style>
+</head>
+{{!-- <link href="img/favicon (1).ico" rel="icon" type="image/x-icon" /> --}}
+<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+<body>
+    <header class="heading">
+        <img src="img/background-img.jpg" class="background-img" alt="">
+        <div class="heading-icon" id="headingIcon">
+            <a href="/"><img src="img/home-logo.png" class="logo" alt="MovieBuzz-Logo"></a>
+           <a href="/home"><button>Watch Now</button></a>
+        </div>
+        <div class="heading-content">
+            <h1>Unlimited movies, TV <br> shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <br>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="entry-btn">
+                <input type="email" name="email" id="mail" placeholder="Email address">
+                <button>Get Started > </button>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid row part-1">
+            <div class="col-lg-6 col-md-6 col-sm-12 subpart-1">
+                <h1>Enjoy on your TV.</h1>
+                <p>Watch on smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV, Blu-ray players and <br> more.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 media-1">
+                <video src="img/watch-on-tv.m4v" autoplay loop muted></video>
+                <img src="img/tv.png" alt="enjoy-on-tv">
+            </div>
+        </div>
+        <div class="container-fluid row part-2">
+           <div class="col-lg-6 col-md-6 col-sm-12 media-2">
+                <img src="img/mobile-0819.jpg" alt="watch-on-mobile">
+                <div class="card-animation"> 
+                    <div class="card-animation-image">
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" alt="">
+                    </div>
+                    <div class="card-animation-text">
+                        <div>
+                            Stranger Things
+                        </div>
+                        <div style="color: blue;">
+                            Downloading...
+                        </div>
+                    </div>
+                    <div aria-hidden="true" class="card-animation-custom">
+
+                    </div>
+                </div>
+           </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 subpart-2">
+                <h1>Download your shows <br> to watch offline.</h1>
+                <p>Save your favourites easily and always have <br> something to watch.</p>
+            </div>
+        </div>
+        <div class="container-fluid row part-3">
+            <div class="col-lg-6 col-md-6 col-sm-12 subpart-3">
+                <h1>Watch everywhere.</h1>
+                <p>Stream unlimited movies and TV shows on <br> your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 media-3">
+                <video src="img/watch-everywhere.m4v" autoplay loop muted></video>
+                <img src="img/device-pile-in.png" alt="">
+            </div>
+        </div>
+        <div class="container-fluid row part-4">
+            <div class="col-lg-6 col-md-6 col-sm-12 media-4">
+                <img src="img/kidsValueProp.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 subpart-4">
+                <h1>Create profiles for <br> children.</h1>
+                <p>Send children on adventures with their <br> favourite characters in a space made just for <br> them—free with your membership.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="faq">
+            <h1>Frequently Asked Questions</h1>
+            <br><br>
+            <ul class="faq-list">
+                <li class="faq-list-item">
+                    <button class="faq-btn">
+                        What is MovieBuzz?
+                    </button>
+                
+                <div class="panel">
+                    <p>MovieBuzz is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices. <br><br> You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+                </div>
+                </li>
+                <li class="faq-list-item">
+                    <button class="faq-btn">
+                        How much does MovieBuzz cost?
+                    </button>
+                <div class="panel">
+                    <p>Watch MovieBuzz on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.</p>
+                </div>
+                </li>
+                <li class="faq-list-item">
+                    <button class="faq-btn">
+                        Where can I watch?
+                    </button>
+                <div class="panel">
+                    <p>Watch anywhere, anytime. Sign in with your MovieBuzz account to watch instantly on the web at MovieBuzz.com from your personal computer or on any internet-connected device that offers the MovieBuzz app, including smart TVs, smartphones, tablets, streaming media players and game consoles. <br><br>
+                        You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take MovieBuzz with you anywhere.</p>
+                </div>
+                </li>
+                <li class="faq-list-item">
+                    <button class="faq-btn">
+                        How do I cancel?
+                    </button>
+                <div class="panel">
+                    <p>MovieBuzz is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+                </div>
+                </li>
+                <li class="faq-list-item">
+                    <button class="faq-btn">
+                        What can I watch on MovieBuzz?
+                    </button>
+                <div class="panel">
+                    <p>MovieBuzz has an extensive library of feature films, documentaries, TV shows, anime, award-winning MovieBuzz originals, and more. Watch as much as you want, anytime you want.</p>
+                </div>
+                </li>
+                <li class="faq-list-item">
+                    <button class="faq-btn">
+                        Is MovieBuzz good for kids?
+                    </button>
+                <div class="panel">
+                    <p>The MovieBuzz Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space. <br><br>
+                        Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+                </div>
+                </li>
+            </ul>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+              <form action="">
+                <div class="EMAIL">
+                    <input type="email" name="email" id="mail" placeholder="Email address">
+                    <button>Get Started > </button>
+                </div>
+              </form>
+        </div>
+    </section>
+    <section>
+        <footer class="footer-navigation">
+            <div class="footer-space">
+                <p style="font-size: 19.2px;">Questions? Call <a href="" class="number">000-800-040-1843</a></p>
+                <ul>
+                    <li><a href="https://help.MovieBuzz.com/en/node/412" target="blank">FAQ</a></li>
+                    <li><a href="https://ir.MovieBuzz.net/ir-overview/profile/default.aspx"target="blank">Investor Relations</a></li>
+                    <li><a href="https://help.MovieBuzz.com/legal/privacy"target="blank">Privacy</a></li>
+                    <li><a href="https://fast.com/"target="blank">Speed Test</a></li>
+                    <li><a href="https://help.MovieBuzz.com/en/"target="blank">Help Centre</a></li>
+                    <li><a href="https://jobs.MovieBuzz.com/"target="blank">Jobs</a></li>
+                    <li><a href="">Cookie Preferences</a></li>
+                    <li><a href="https://help.MovieBuzz.com/legal/notices"target="blank">Legal Notices</a></li>
+                    <li><a href="https://www.MovieBuzz.com/in/login?nextpage=https%3A%2F%2Fwww.MovieBuzz.com%2Fyouraccount"target="blank">Account</a></li>
+                    <li><a href="https://devices.MovieBuzz.com/en/"target="blank">Ways to Watch</a></li>
+                    <li><a href="https://help.MovieBuzz.com/legal/corpinfo"target="blank">Corporate Information</a></li>
+                    <li><a href="https://www.MovieBuzz.com/in/browse/genre/839338"target="blank">Only on MovieBuzz</a></li>
+                    <li><a href="https://media.MovieBuzz.com/en/"target="blank">Media Centre</a></li>
+                    <li><a href="https://help.MovieBuzz.com/legal/termsofuse"target="blank">Terms of Use</a></li>
+                    <li><a href="https://help.MovieBuzz.com/en/contactus"target="blank">Contact Us</a></li>
+                </ul>
+                <button style="background-color: black;color: white;border: .5px solid white;"  >English</button>
+                <p style="font-size: 19.2px;" >MovieBuzz India</p>
+            </div>
+           
+        </footer>
+    </section>
+
+    <script src="js/index.js"></script>
+</body>
+
+
+</html>
