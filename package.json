@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build": "node src/app.js",
+    "build": "node src/server.js",
     "start": "node src/server.js"
   },
   "author": "ramkrishna",
